@@ -1,0 +1,400 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --negro: #04060d;
+  --celeste: #508bb9;
+  --blanco: #b8cad6;
+  --marino: #102f59;
+  --grisviolaceo: #515e80;
+  --maripositas: #52bbd7;
+  --hojita: #235c91;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500&display=swap");
+
+.flex-container {
+  display: flex;
+}
+
+h1 {
+  color: #508bb9;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+}
+
+.crearbutton {
+  background-color: var(--marino);
+  color: var(--celeste);
+  border: solid 0.5px var(--grisviolaceo);
+  width: 100px;
+  height: 50px;
+  margin-left: 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.crearbutton:hover {
+  background-color: var(--celeste);
+  color: var(--marino);
+}
+
+.botoncitos {
+  width: 30px;
+  font-weight: bolder;
+  background-color: var(--marino);
+  color: var(--celeste);
+}
+.botoncitos:hover {
+  background-color: var(--celeste);
+  color: var(--marino);
+}
+
+.Barradebusqueda {
+  background-color: var(--marino);
+  color: var(--celeste);
+  height: 30px;
+  width: 300px;
+  font-size: 15px;
+  color: var(--celeste);
+  border-radius: 8px;
+}
+
+.Botondebusqueda {
+  background-color: var(--marino);
+  color: var(--celeste);
+  border: solid 0.5px var(--grisviolaceo);
+  width: 70px;
+  height: 30px;
+  margin-left: 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.Botondebusqueda:hover {
+  background-color: var(--celeste);
+  color: var(--marino);
+}
+
+.filterBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+
+.Lapagina {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.currentPages {
+  background-color: var(--marino);
+  color: var(--celeste);
+  border: solid 0.5px var(--grisviolaceo);
+  font-weight: bold;
+  width: 90px;
+  margin-left: 20px;
+  border-radius: 5px;
+}
+
+.filterselect {
+  background-color: var(--marino);
+  color: var(--celeste);
+  border: solid 0.5px var(--grisviolaceo);
+  height: 30px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.carta {
+  padding: 30px;
+  border-radius: 10px;
+  margin: 10px;
+  color: var(--celeste);
+  word-spacing: 1px;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  background-color: var(--marino);
+  border: solid 0.5px var(--grisviolaceo);
+  transition: all 400ms ease;
+}
+
+.carta:hover {
+  text-decoration: underline;
+  background-color: var(--celeste);
+  color: var(--blanco);
+  box-shadow: 5px 5px 20px var(--negro);
+  transform: translateY(-3%);
+}
+
+.Cartas {
+  margin: 0 200px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 597px;
+}
+
+.body {
+  background-color: var(--negro);
+  font-family: "Poppins", "Sans-serif";
+}
+
+/* Detalles */
+
+.homebutton {
+  background-color: var(--marino);
+  color: var(--celeste);
+  border: solid 0.5px var(--grisviolaceo);
+  width: 150px;
+  height: 50px;
+  margin-left: 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.homebutton:hover {
+  background-color: var(--celeste);
+  color: var(--marino);
+}
+
+.iniciobtn {
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 10px;
+}
+
+.detalless {
+  background-color: var(--negro);
+  color: var(--celeste);
+  height: 100vh;
+}
+
+.lasplataformas {
+  width: 70vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  border: solid 1px #508bb9;
+}
+
+.cajas {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: space-around;
+  height: 40vh;
+  margin: 30px;
+}
+
+.lel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cajas .texto {
+  width: 30vw;
+  height: 100%;
+  font-size: 16px;
+  margin: 10px;
+  padding: 20px;
+}
+
+.cajas .imagenes {
+  width: 30vw;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 6px;
+}
+.imagenes img {
+  border-radius: 5px;
+}
+
+.genress {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.header h2 {
+  font-size: 30px;
+  color: antiquewhite;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.header h2:hover {
+  color: #52bbd7;
+  transition: 2s;
+}
+
+.header h3 {
+  font-size: 23px;
+  color: #52bbd7;
+  letter-spacing: 1px;
+}
+
+.header h3:hover {
+  color: antiquewhite;
+  transition: 2s;
+}
+
+/* El formulario ndeaah */
+
+.Elformulario {
+  background-color: var(--negro);
+  height: 100vh;
+  color: var(--celeste);
+  font-weight: bold;
+}
+
+.form-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--celeste);
+  font-weight: bold;
+  font-size: 19px;
+}
+
+.cajagrande {
+  display: flex;
+  padding: 40px;
+  justify-content: center;
+}
+
+.generosform {
+  border: solid 1px var(--maripositas);
+  color: var(--celeste);
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30%;
+  overflow: auto;
+  padding: 50px;
+  border-radius: 7px;
+  align-items: flex-start;
+}
+
+.generosform label:hover {
+  cursor: pointer;
+}
+
+.cajaform {
+  padding: 20px;
+}
+
+.platformselect {
+  background-color: var(--marino);
+  color: var(--celeste);
+  height: 30px;
+  width: 300px;
+  font-size: 15px;
+  color: var(--celeste);
+  border-radius: 8px;
+}
+
+.platformpad {
+  padding-top: 30px;
+}
+
+/* .platformbox {
+  border: solid 1px var(--hojita);
+  max-width: 45vw;
+  display: flex;
+  flex-direction: row;
+} */
+
+.platformboxx {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: space-between;
+  gap: 35px;
+  margin: 15px;
+  padding: 10px;
+}
+
+.platformboxcont {
+  color: val(--celeste);
+}
+
+.botonX {
+  background-color: var(--marino);
+  color: var(--celeste);
+  width: 25px;
+  font-weight: bold;
+}
+
+.botonX:hover {
+  background-color: var(--celeste);
+  color: var(--marino);
+}
+
+.crearbutton2 {
+  background-color: var(--marino);
+  color: var(--celeste);
+  border: solid 0.5px var(--grisviolaceo);
+  width: 200px;
+  height: 60px;
+  margin-left: 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.crearbutton2:hover {
+  background-color: var(--celeste);
+  color: var(--marino);
+}
+
+.error {
+  color: var(--blanco);
+}
+
+/* Landing page*/
+
+.LandingPage {
+  text-align: center;
+  background-color: var(--negro);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.enterbtn {
+  background-color: var(--marino);
+  color: var(--celeste);
+  border: solid 0.5px var(--grisviolaceo);
+  width: 150px;
+  height: 50px;
+  margin-left: 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  font-weight: bold;
+  margin: 20px;
+}
+
+.enterbtn:hover {
+  background-color: var(--celeste);
+  color: var(--marino);
+  transition: 2s;
+}
